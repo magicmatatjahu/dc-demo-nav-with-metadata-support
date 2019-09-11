@@ -11,6 +11,12 @@ import { asyncApiRenderEngine } from "@kyma-project/dc-async-api-render-engine";
 import { GroupRenderer } from "./render/renderer.group";
 import { MarkdownRenderer } from "./render/markdown.renderer";
 
+import "@kyma-project/dc-markdown-render-engine/lib/styles.css";
+
+import "./styles.css";
+import "fiori-fundamentals/dist/fiori-fundamentals.css";
+import "fiori-fundamentals/dist/fonts.min.css";
+
 const SOURCES = [
   {
     sources: [
