@@ -5,9 +5,10 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "@kyma-project/dc-async-api-render-engine": "v0.2.0-alpha.1",
-    "@kyma-project/dc-markdown-render-engine": "v0.2.0-alpha.1",
-    "@kyma-project/documentation-component": "v0.2.0-alpha.1",
+    "@kyma-project/dc-async-api-render-engine": "0.2.0",
+    "@kyma-project/dc-markdown-render-engine": "0.2.0",
+    "@kyma-project/documentation-component": "0.2.0",
+    "fiori-fundamentals": "1.7.1",
     "react-tabs": "2.3.1",
     "lodash": "4.17.15",
     "react": "16.8.6",
